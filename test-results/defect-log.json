@@ -1,0 +1,58 @@
+[
+  {
+    "testName": "General Regression Flow",
+    "category": "functional",
+    "severity": "critical",
+    "stepsToReproduce": "Run step \"Load Application\"",
+    "expectedBehavior": "Step should complete without errors",
+    "actualBehavior": "Step failed: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3333/\nCall log:\n\u001b[2m  - navigating to \"http://localhost:3333/\", waiting until \"load\"\u001b[22m\n",
+    "screenshotPath": "screenshots/fail_Load_Application-1770565661133.png",
+    "consoleErrors": [],
+    "networkFailures": [
+      "GET http://localhost:3333/ - net::ERR_CONNECTION_REFUSED"
+    ],
+    "timestamp": "2026-02-08T15:47:41.188Z"
+  },
+  {
+    "testName": "General Regression Flow",
+    "category": "UI",
+    "severity": "critical",
+    "stepsToReproduce": "Run step \"Verify Key UI Components\"",
+    "expectedBehavior": "Step should complete without errors",
+    "actualBehavior": "Step failed: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('textarea, input[type=\"text\"]').first()\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('textarea, input[type=\"text\"]').first()\u001b[22m\n",
+    "screenshotPath": "screenshots/fail_Verify_Key_UI_Components-1770565666208.png",
+    "consoleErrors": [],
+    "networkFailures": [
+      "GET http://localhost:3333/ - net::ERR_CONNECTION_REFUSED"
+    ],
+    "timestamp": "2026-02-08T15:47:46.249Z"
+  },
+  {
+    "testName": "General Regression Flow",
+    "category": "functional",
+    "severity": "high",
+    "stepsToReproduce": "Run step \"Check for Console/Network Errors on Load\"",
+    "expectedBehavior": "Step should complete without errors",
+    "actualBehavior": "Step failed: Console or Network errors detected on startup",
+    "screenshotPath": "screenshots/fail_Check_for_Console/Network_Errors_on_Load-1770565666250.png",
+    "consoleErrors": [],
+    "networkFailures": [
+      "GET http://localhost:3333/ - net::ERR_CONNECTION_REFUSED"
+    ],
+    "timestamp": "2026-02-08T15:47:46.279Z"
+  },
+  {
+    "testName": "General Regression Flow",
+    "category": "functional",
+    "severity": "critical",
+    "stepsToReproduce": "Run step \"Load Application\"",
+    "expectedBehavior": "Step should complete without errors",
+    "actualBehavior": "Step failed: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3333/\nCall log:\n\u001b[2m  - navigating to \"http://localhost:3333/\", waiting until \"load\"\u001b[22m\n",
+    "screenshotPath": "screenshots/fail_Load_Application-1770565683795.png",
+    "consoleErrors": [],
+    "networkFailures": [
+      "GET http://localhost:3333/ - net::ERR_CONNECTION_REFUSED"
+    ],
+    "timestamp": "2026-02-08T15:48:03.924Z"
+  }
+]

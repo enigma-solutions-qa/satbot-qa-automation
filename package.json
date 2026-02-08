@@ -1,0 +1,12 @@
+{
+  "name": "satbot-qa-automation",
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": "^1.42.0"
+  },
+  "scripts": {
+    "test": "playwright test --config=playwright.config.js",
+    "test:ui": "playwright test --headed --config=playwright.config.js",
+    "test:debug": "playwright test --debug --config=playwright.config.js"
+  }
+}
